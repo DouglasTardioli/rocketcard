@@ -26,6 +26,7 @@ ul {
 
 body,
 main {
+    height: 100%;
     margin: 0 auto;
   color: var(--text);
   font-family: "Prompt", sans-serif;
@@ -52,7 +53,7 @@ main p {
 .card {
     box-shadow: 1px 1px 10px 2px var(--border-button);
     position: relative;
-    padding: 2rem 1.5rem 2.5rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
     margin: 0 auto;
     width: 43.8rem;
     height: 69.3rem;
@@ -86,9 +87,15 @@ main p {
 }
 
 .header-card #logo {
+   
     position: relative;
     width: 3.14rem;
     height: 3.69rem;
+}
+
+.header-card p {
+    margin-top: 1rem;
+    font: 400 2.4rem 'Prompt', sans-serif;
 }
 
 .photo-perfil {
@@ -158,4 +165,21 @@ button {
     outline: none;
    
     cursor: pointer;
+}
+
+@media (max-width: 1275px) {
+    body {
+        margin: 0 auto;
+        padding: 5rem;
+    }
+    .button-right {
+     position: absolute;
+     top: 75rem;
+     left: 20%;
+    }
+    .button-right p{
+        position: absolute;
+        top: -3rem;
+        left: .5rem;
+       }
 }
