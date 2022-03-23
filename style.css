@@ -48,8 +48,8 @@ main p {
   font: 400 2rem "Prompt", sans-serif;
 }
 .background-card {
-  width: 40.7rem;
-  height: 64.4rem;
+  width: 33rem;
+  height: 54.4rem;
   background-color: var(--bg-card);
   border-radius: 5rem;
 }
@@ -59,8 +59,8 @@ main p {
   position: relative;
   padding: 2rem 1.5rem 2rem 1.5rem;
   margin: 0 auto;
-  width: 43.8rem;
-  height: 69.3rem;
+  width: 35.7rem;
+  height: 59rem;
   background-color: var(--bg);
   border-radius: 5rem;
 }
@@ -75,15 +75,15 @@ main p {
   padding-top: 3.77rem;
   display: flex;
   align-items: center;
-  font: 400 2.4rem "Prompt", sans-serif;
+  font: 400 2rem "Prompt", sans-serif;
   gap: 2.5rem;
 }
 
 .header-card #clip-path {
   position: absolute;
   left: 3.9rem;
-  width: 5.54rem;
-  height: 5.44rem;
+  width: 4.54rem;
+  height: 4.44rem;
   border-radius: 50%;
   border: 1px solid var(--text);
   background-color: transparent;
@@ -91,28 +91,28 @@ main p {
 
 .header-card #logo {
   position: relative;
-  width: 3.14rem;
-  height: 3.69rem;
+  width: 2.14rem;
+  height: 2.69rem;
 }
 
 .header-card p {
   margin-top: 1rem;
-  font: 400 2.5rem "Prompt", sans-serif;
+  font: 400 1.8rem "Prompt", sans-serif;
 }
 
 .photo-perfil {
-  width: 33.1rem;
-  height: 41.8rem;
+  width: 23.1rem;
+  height: 31.8rem;
   margin-top: 2rem;
-  margin-left: 7.6rem;
+  margin-left: 10rem;
 }
 
 .info ul {
   position: absolute;
   left: 3.5rem;
   top: 32rem;
-  width: 19.55rem;
-  height: 19.47rem;
+  width: 17.55rem;
+  height: 17.47rem;
   background-image: linear-gradient(
     var(--bg),
     var(--gradient),
@@ -122,7 +122,7 @@ main p {
 }
 
 .info ul li a {
-  font: 400 1.5rem "Prompt", sans-serif;
+  font: 400 1.4rem "Prompt", sans-serif;
   margin-top: 1.2rem;
   margin-left: 2.1rem;
   gap: 0.9rem;
@@ -131,10 +131,11 @@ main p {
 }
 
 .footer-logo {
+
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-top: 4rem;
+  margin-top: 6rem;
   padding-right: 2rem;
   font: 400 1.5rem "Prompt", sans-serif;
 }
@@ -145,12 +146,15 @@ main p {
 }
 
 .button-right {
-  position: absolute;
-  top: 40rem;
-  right: -40rem;
+    position: absolute;
+    top: 65rem;
+    left: 15%;
 }
 
 .button-right p {
+    position: absolute;
+    top: -3rem;
+    left: 0.5rem;
   font: 400 2rem "Prompt", sans-serif;
 }
 
@@ -168,69 +172,8 @@ button {
   cursor: pointer;
 }
 
-@media (max-width: 1275px) {
-  body {
-    margin: 0 auto;
-    height: 100%;
-  }
-
-  main {
-    padding: 5rem;
-  }
-  .container {
-    max-width: 35rem;
-  }
-
-  .background-card {
-    width: 30.9rem;
-    height: 54.4rem;
-  }
-
-  .card {
-    margin: 0 auto;
-    width: 34rem;
-    height: 59.3rem;
-  }
-
-  .header-card #clip-path {
-    left: 3.9rem;
-    width: 4.54rem;
-    height: 4.44rem;
-  }
-
-  .header-card #logo {
-    width: 2.14rem;
-    height: 2.69rem;
-  }
-
-  .header-card p {
-    margin-top: 1rem;
-    font-size: 1.8rem;
-  }
-
-  .photo-perfil {
-    width: 23.1rem;
-    height: 31.8rem;
-    margin-top: 2rem;
-    margin-left: 7.7rem;
-  }
-
-  .info ul {
-    position: absolute;
-    left: 3.5rem;
-    top: 32rem;
-    width: 14.55rem;
-    height: 14.47rem;
-  }
-
-  .info ul li a {
-    font: 400 1rem "Prompt", sans-serif;
-    margin-top: 1rem;
-    margin-left: 2.2rem;
-    gap: 0.9rem;
-    display: flex;
-    align-items: center;
-  }
+@media (min-width: 1275px) {
+ 
 
   .button-right {
     position: absolute;
