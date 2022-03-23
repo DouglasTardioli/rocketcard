@@ -32,11 +32,10 @@ main {
   color: var(--text);
   font-family: "Prompt", sans-serif;
   background-color: var(--bg-card);
-  
 }
 
 body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 main {
@@ -175,41 +174,35 @@ button {
     height: 100%;
   }
 
- main {
-     padding: 5rem;
- }
-  .container {
-      max-width: 35rem;
+  main {
+    padding: 5rem;
   }
-  
+  .container {
+    max-width: 35rem;
+  }
+
   .background-card {
     width: 30.9rem;
     height: 54.4rem;
-   
   }
-  
+
   .card {
-    
     margin: 0 auto;
     width: 34rem;
     height: 59.3rem;
-    
   }
-  
-  .header-card #clip-path {
 
+  .header-card #clip-path {
     left: 3.9rem;
     width: 4.54rem;
     height: 4.44rem;
-  
   }
-  
+
   .header-card #logo {
-    
     width: 2.14rem;
     height: 2.69rem;
   }
-  
+
   .header-card p {
     margin-top: 1rem;
     font-size: 1.8rem;
@@ -221,16 +214,15 @@ button {
     margin-top: 2rem;
     margin-left: 7.7rem;
   }
-  
+
   .info ul {
     position: absolute;
     left: 3.5rem;
     top: 32rem;
     width: 14.55rem;
     height: 14.47rem;
-    
   }
-  
+
   .info ul li a {
     font: 400 1rem "Prompt", sans-serif;
     margin-top: 1rem;
@@ -239,9 +231,7 @@ button {
     display: flex;
     align-items: center;
   }
-  
-  
-  
+
   .button-right {
     position: absolute;
     top: 65rem;
