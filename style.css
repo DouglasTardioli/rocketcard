@@ -32,6 +32,7 @@ main {
   color: var(--text);
   font-family: "Prompt", sans-serif;
   background-color: var(--bg-card);
+  overflow-x: hidden;
 }
 
 main {
@@ -168,7 +169,9 @@ button {
   body {
     margin: 0 auto;
   }
-
+  .container {
+      max-width: 35rem;
+  }
   .button-right {
     position: absolute;
     top: 65rem;
