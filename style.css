@@ -34,12 +34,10 @@ main {
   background-color: var(--bg-card);
 }
 
-body {
-  overflow: hidden;
-}
+
 
 main {
-  padding-top: 10rem;
+  padding: 3rem 2rem 3rem;
 }
 
 main p {
@@ -170,19 +168,4 @@ button {
   outline: none;
 
   cursor: pointer;
-}
-
-@media (min-width: 1275px) {
- 
-
-  .button-right {
-    position: absolute;
-    top: 65rem;
-    left: 15%;
-  }
-  .button-right p {
-    position: absolute;
-    top: -3rem;
-    left: 0.5rem;
-  }
 }
