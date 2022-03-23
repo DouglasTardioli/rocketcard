@@ -169,6 +169,10 @@ button {
   body {
     margin: 0 auto;
   }
+
+ main {
+     padding: 5rem;
+ }
   .container {
       max-width: 35rem;
   }
